@@ -1,0 +1,11 @@
+Server:
+  port: 7004
+
+spring:
+  application:
+    name: springcloud-hystrix
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:7000/eureka
